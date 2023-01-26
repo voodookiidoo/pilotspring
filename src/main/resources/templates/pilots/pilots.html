@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pilots</title>
+</head>
+<body>
+
+<p>GREETINGS</p>
+<div th:each="pilot : ${pilots}">
+    <p th:text="'hello it\'s me '"></p>
+</div>
+</body>
+</html>
